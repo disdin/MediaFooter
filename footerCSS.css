@@ -1,0 +1,459 @@
+/* footer base elements*/
+/* footer{
+    border: 4px solid red;
+} */
+.container{
+    background-color: #c6c7cc5d;
+    left: 0rem;
+    right: 0rem;
+    position: fixed;
+    bottom: 0rem;
+    /*above two lines are just for making footer fixed to the ground of website*/
+    /* border: 4px solid red; */
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem;
+    display: grid;
+    /* grid-gap: 0.5rem; */
+    grid-template-areas: 
+    'h2 h2 h2'
+    'sec1 sec2 sec3'
+    'sec1 sec2 sec3'
+    'sec1 sec2 sec3'
+    'sec4 sec4 sec4'
+    ;
+}
+#siteName{
+    font-size:2rem;
+    color: rgba(0, 0, 0, 0.952);
+    text-align: center;
+    margin: 0rem;
+    padding: 0.6rem 0rem;
+    grid-area: h2;
+    border-top: 3px solid rgba(0, 0, 0, 0.822);
+    border-bottom: 2px solid rgba(10, 9, 9, 0.363);
+    font-family: 'Handlee', cursive;
+}
+#sec1{
+    grid-area: sec1;
+}
+#sec2{
+    grid-area: sec2;
+}
+#sec3{
+    grid-area: sec3;
+}
+#sec4{
+    text-align: center;
+    grid-area: sec4;
+    padding: 0rem!important;
+    border-top:  2px solid rgba(10, 9, 9, 0.363);
+    font-weight: bold;
+}
+.item{
+    
+    /* border: 3px solid black; */
+    /* padding: 0.5rem 2rem; */
+    padding-bottom: 0rem !important;  /*was added to decrease the height of footer at last*/
+}
+
+/* section 1 EXPLORE*/
+/* .explore{
+    border: 2px solid pink;
+} */
+
+/* **************** every section has been given a padding of 1rem*/
+#sec1{
+    /* border: 2px solid red; */
+    padding:1rem;
+    padding-right: 0rem;
+    margin-left: 1.4rem;
+}
+.explore{
+    margin: 0rem;
+    display: flex;
+    flex-direction:column;
+    /* border: 2px solid red; */
+    padding: 0px;
+    list-style-type: none;
+    align-items:flex-start;
+}
+.explore h3{
+    /* border: 2px solid red; */
+    margin: 0rem;
+}
+.explore li a{
+    /* border: 2px solid green; */
+    text-decoration: none;
+}
+
+/* section 1 FOLLOW US*/
+.followUs{
+    padding: 0rem;
+    width: 12rem;
+    /* height: 6rem; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:column;
+}
+.followUs h3{
+    /* border: 2px solid red; */
+    margin: 0rem;
+    margin-top: 0.4rem;
+}
+.followUs ul{
+    height:2.7rem;
+    margin: 0rem;
+    margin-top: 0.25rem;
+    padding: 0rem;
+    /* padding-top: 1rem; */
+    /* border: 2px solid red; */
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+}
+#img1{
+    /* border: 2px solid red; */
+    margin:0rem;
+    margin-left: -0.27rem;
+    margin-right: 0.1rem;
+    width: 38px;
+    height: 35px;
+    transition: all 0.3s ease 0.1s;
+}
+#img2{
+    /* border: 2px solid red; */
+    margin-left: -0.5rem;
+    margin-right: 0.12rem;
+    width: 44px;
+    height: 34px;
+    transition: all 0.3s ease 0.1s;
+    border-radius: 10px;
+}
+#img3{
+    /* border: 2px solid red; */
+    margin-right: 0.2rem;
+    width: 33px;
+    height: 33px;
+    transition: all 0.3s ease 0.1s;
+}
+#img4{
+    /* border: 2px solid red; */
+    margin-right: 0rem;
+    width: 30px; 
+    height: 33px;
+    transition: all 0.3s ease 0.1s;
+}
+#img5{
+    /* border: 2px solid red; */
+    margin-right: 0.6rem;
+    width: 40px; 
+    height: 30px;
+    transition: all 0.3s ease 0.1s;
+}
+ #img1:hover{
+    height: 49px;
+    width: 49px;
+    border-radius: 26px;
+}
+#img2:hover{
+   height: 46px;
+    width: 56px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px;
+}
+#img3:hover{
+    height: 43px;
+    width: 43px;
+    border-radius: 20px;
+}
+#img4:hover{
+    height: 40px;
+    width: 43px;
+    border-radius: 10px;
+    border-top-right-radius: 5px;
+    
+}
+#img5:hover{
+    height: 42px;
+    width: 56px;
+    border-radius: 20px;
+}
+/*section 2 ////////////////////////////////////////*/
+#sec2{
+    /* border: 2px solid red; */
+    padding: 1rem 0rem;
+    /* margin-left: 1rem; */
+    /* padding-left: 2rem; */
+}
+#sec2Inside{
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+/*ADVERTISE block*/
+.advertise{
+    margin:0rem;
+    /* margin-right: 5rem; */
+    /* border: 2px solid red; */
+    padding: 0rem;
+}
+.advertise h3{
+    margin:0rem;
+    margin-bottom: 0.2rem;
+    /* border: 2px solid red; */
+}
+.advertise li{
+    list-style-type: none;
+    margin-bottom: 0.2rem;
+    /* border: 2px solid red; */
+}
+.advertise li a{
+    text-decoration: none;
+}
+/*DOWNLOAD block*/
+.download{
+    padding: 0rem;
+    margin-right:5rem;
+    margin-left:6rem;
+    /* border: 2px solid red; */
+}
+.download h2{
+    /* padding: 0rem; */
+    margin:0rem;
+    margin-left: 2.54rem;
+    font-family: 'Rancho', cursive;
+    font-size: 1.8rem;
+    font-weight:lighter;
+}
+.download li{
+    /* padding: 1rem; */
+    /* border: 2px solid red; */
+    margin-top: -0.4rem;
+    list-style-type:none;
+}
+#d1d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d1{
+    /* border: 2px solid red; */
+    height: 3rem;
+    width: 7.8rem;
+    margin-top: -2rem;
+}
+#d2{
+    /* border: 2px solid red; */
+    height: 8.8rem;
+    width: 12rem;
+    margin-top: -2.1rem;
+}
+/*MEDIA PARTNERS*/
+/* #mediaP{
+ 
+} */
+/*privacy vgera vgera*/
+.privacy{
+    padding: 0rem;
+    margin: 0rem;
+    margin-top: -1.3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.privacy li{
+    display: flex;
+    justify-content: center;
+    padding: 0rem;
+    margin: 0rem;
+    width: 10rem;
+    /* border: 2px solid red; */
+    list-style-type: none;
+}
+.privacy a{
+    padding: 0.2rem;
+    font-weight: bold;
+    display: block;   /* very very imp line for changing height and width of the block inside li*/
+    text-decoration: none;
+    transition: all 0.3s  0.1s;
+    font-size: 1rem;
+    color: rgba(50, 29, 167, 0.76);
+    background-color: rgba(228, 149, 149, 0.692);
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rancho', cursive;
+    /* border: 2px solid red; */
+}
+
+.privacy a:hover{
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 2.6rem;
+    border-radius: 0.8rem;
+    color: rgb(50, 29, 167);
+    font-family: 'Rancho', cursive;
+    background-color: rgba(228, 149, 149, 0.5);
+    
+}
+
+/*section 3 //////////////////////////////////////////////////*/
+#sec3{
+    /* border: 2px solid red; */
+    padding: 1rem 0rem;
+    padding-right: 2.5rem;
+    margin: 0rem;
+    margin-left: 5rem;
+}
+
+/* FORM ///////////*/
+.form{
+    margin: 0rem;
+    /* border: 2px solid red; */
+    /* padding: 1rem; */
+    /* background-color: rgba(243, 122, 217, 0.116); */
+    border-radius: 1rem;
+    margin-bottom: 0.7rem;
+}
+/* .form input[type=text]{
+  method to refer to input tag of particular type   
+} */
+.input {
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.input input{
+        padding: 0.4rem;
+        background-color: #ecd9e48f;
+        text-align: center;
+        border: 0.1rem solid black;
+        font-size: 0.9rem;
+        border-radius: 0.4rem;
+        color: #380906;
+}
+.input input::placeholder{
+    color: rgb(50, 29, 167);
+}
+#emailForm{
+    margin-right: 1rem;
+}
+#firstC{
+    margin-right: 0.5rem;
+}
+#secondC{
+    margin-right: 0.5rem;
+}
+#btsignup{
+    background-color:rgba(228, 149, 149, 0.692);
+    /* border: 2px solid rgba(31, 112, 31, 0.904); */
+    border-radius: 0.5rem;
+    border: none;
+    height: 1.5rem;
+    width: 7rem;
+    color: rgb(50, 29, 167);
+    font-family: 'Rancho', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9rem;
+    /* border: 2px solid red; */
+}
+.check label{
+    font-size: 1.3rem;
+    font-family: 'Rancho', cursive;
+}
+
+/*CONTACT US*/
+#afterForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.85rem;
+    /* border: 2px solid red; */
+}
+#afterForm h3{
+    display: inline;
+    margin: 0rem;
+    margin-right:1.2rem ;
+    /* border: 2px solid red; */
+    /* font-family: 'Rancho', cursive; */
+    font-size: 0.85rem;
+    font-weight:normal;
+    /* color: rgba(255, 0, 0, 0.822); */
+}
+
+/*visitors */
+.visitors{
+    /* background-color: rgba(224, 241, 66, 0.13); */
+    padding: 0rem;
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+
+}
+.visitors h3{
+    margin: 0rem;
+    margin-right: 1rem;
+    /* border: 2px solid red; */
+    display: inline;
+    color:rgba(0, 0, 255, 0.548) ;
+    font-family: 'Rancho', cursive;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
